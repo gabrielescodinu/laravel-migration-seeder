@@ -16,6 +16,7 @@ class StudentSeeder extends Seeder
         for ($i=0; $i < 10; $i++) { 
             $newStudent = new Student();
             $newStudent->name = $faker->name;
+            $newStudent->save();
         }
     }
 }

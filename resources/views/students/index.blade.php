@@ -19,10 +19,10 @@
         </tr>
     </thead>
     <tbody>
-        @foreach ($faker as $fakers)
+        @foreach ($students as $student)
         <tr>
-            <td>{{$faker->id}}</td>
-            <td>{{$faker->name}}</td>
+            <td>{{$student->id}}</td>
+            <td>{{$student->name}}</td>
         </tr>
         @endforeach
     </tbody>
