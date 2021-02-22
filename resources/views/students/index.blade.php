@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<h1>All Products</h1>
+@extends('layouts.app')
 
-<a href="/" class="btn btn-warning">Add a new Game</a>
+@section('content')
+<h1>All Students</h1>
+
+<a href="/">Back Home</a>
 
 <table class="table">
     <thead>
@@ -27,6 +21,4 @@
         @endforeach
     </tbody>
 </table>
-    
-</body>
-</html>
+@endsection
