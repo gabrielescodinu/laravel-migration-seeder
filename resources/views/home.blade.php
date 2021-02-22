@@ -73,6 +73,7 @@
 
                 <div class="links">
                     <a href="{{ route('products.index') }}">See All Products</a>
+                    <a href="{{ route('students.index') }}">See All Students</a>
                 </div>
             </div>
         </div>
