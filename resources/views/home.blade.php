@@ -72,7 +72,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="">See All Products</a>
+                    <a href="{{ route('products.index') }}">See All Products</a>
                 </div>
             </div>
         </div>
