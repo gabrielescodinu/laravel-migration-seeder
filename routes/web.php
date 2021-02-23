@@ -15,5 +15,17 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PageController@home')->name('home');
 
+Route::get('/uscite', function () {
+    $prodotti = '[
+        {
+            "name": "Prodotto n.1",
+            "description": "Lorem Ipsum",
+            "price": "60",
+        },
+    ]';
+    return view('uscite', compact('prodotti'));
+});
+
 Route::resource('products', 'ProductController');
+
 Route::resource('students', 'StudentController');
