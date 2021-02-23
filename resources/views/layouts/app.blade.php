@@ -19,6 +19,15 @@
                 height: 100vh;
             }
 
+            a {
+                text-decoration: none;
+                font-weight: 600;
+                color: orange;
+            }
+            a:hover {
+                color: lightgrey;
+            }
+
             .full-height {
                 height: 100vh;
             }
@@ -55,6 +64,9 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+            }
+            .links a:hover {
+                color: lightgrey;
             }
 
             .m-b-md {
